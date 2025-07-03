@@ -91,7 +91,7 @@ export default function QuoteGenerator() {
           <CardHeader className="pb-4">
             <CardTitle className="text-2xl text-center text-white drop-shadow-lg">Find Your Inspiration</CardTitle>
             <CardDescription className="text-center text-gray-300">
-              Enter a topic like "success", "motivation", "life", or leave blank for random quotes
+              Enter a topic like &ldquo;success&rdquo;, &ldquo;motivation&rdquo;, &ldquo;life&rdquo;, or leave blank for random quotes
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-4">
@@ -157,7 +157,7 @@ export default function QuoteGenerator() {
                     <div className="text-center space-y-4">
                       <QuoteIcon className="h-6 w-6 text-red-400 mx-auto opacity-60" />
                       <blockquote className="text-xl md:text-2xl font-medium text-white leading-relaxed">
-                        "{quote.text}"
+                        &ldquo;{quote.text}&rdquo;
                       </blockquote>
                       <div className="pt-4 border-t border-red-500/30">
                         <cite className="text-lg font-semibold text-red-400">
@@ -184,7 +184,7 @@ export default function QuoteGenerator() {
                 Ready to Get Inspired?
               </h3>
               <p className="text-gray-300">
-                Enter a topic above or click "Random Quotes" to start discovering amazing quotes!
+                Enter a topic above or click &ldquo;Random Quotes&rdquo; to start discovering amazing quotes!
               </p>
             </CardContent>
           </Card>
